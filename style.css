@@ -8,8 +8,7 @@
 
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
 
 
@@ -32,21 +31,21 @@
 }
 
 .topNavigation--firstRow--menu{
-
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
     position: absolute;
-    left: 80px;    
-}
+    left: 120px;  
+    column-gap: 30px;  
+} 
 
-.figmaStyling{
+/* .figmaStyling{
     display: flex;
     flex-direction: row;
     background-color: tomato;
   
    
-}
+} */
  
 .fa {
     padding: 20px;
@@ -57,7 +56,7 @@
   }
 
 
-  .backgroundImage {
+.backgroundImage {
       display: flex;
       justify-content: center;
       background-image: url("images/view.png");
@@ -69,7 +68,8 @@
        
   }
 
-  .topNavigation--secondRow{
+
+.topNavigation--secondRow{
       display: flex;
       justify-content: center;
       font-family:Graphik;
@@ -81,78 +81,99 @@
       letter-spacing: 0.2px;
   }
 
-  .socialMedia{
+.socialMedia{
       position: absolute;
       right: 80px;
       display: flex;
       justify-content: space-between;  
-  }
+     }
       
 
 
 
-  .topNavigation--fourthRow{
+.topNavigation--fourthRow{
       display: flex;
       justify-content: center;
       margin-right: auto;
-      margin-left: auto;
+      margin-left: auto; 
       border-radius:35px;
       background-color: rgb(15, 150, 204);
       width: 150px;
       padding: 10px;
       
-  }
+     }
 
-  .features__content{
+
+.section--three--left--tryButton{
+    display: flex;
+    justify-content: center;
+    border-radius:35px;
+    background-color: rgb(15, 150, 204);
+    width: 150px;
+    padding: 10px;
+    color:white;
+   }
+
+
+.features__content{
       
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    }
 
-  }
 
-.features--top{
-      display: flex;
-      flex-direction: column;
+
+.features__content--top{
+    display: flex;
+    flex-direction: column;
  
   }
 
 
+.features__content--top--attribute{
+    margin-right: auto;
+    margin-left: auto; 
+    font-family:Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color:#252B42;
 
-  .features--threeParagraphs{
+   }
+
+
+
+.features--threeParagraphs{
       
-      display: flex;
-      flex-direction:row;
-      justify-content: center;
-      column-gap: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    column-gap: 50px;
       
- 
-      
-     
-      }
+    }
 
 
 
-  .features__content__image{
+.features__content__image{
     display: flex;
     justify-content: center;
     position:relative;
+}
 
-  }
 
-
-  .features--top{
-      display: flex;
-      flex-wrap: wrap;
-     
+.features--top{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   
 
-  .features__content__circle{
+.features__content__circle{
     height: 85px;
     width: 85px;
     background-color:rgb(44, 173, 224);
@@ -162,7 +183,86 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
- 
   }
+
   
+.section--three{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    column-gap: 80px;
+    margin-top: 50px;
+    }
+
+
+ 
+.section--four{    
+
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   column-gap: 130px;
+   margin-top: 50px;
+   }
+
+
+.section--four--right{
+   display: flex;
+   flex-direction: column;
+   justify-content: 
+  }
+
+
+.section--four--right__input{
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+
+  }
+
+.section--four--right__button{
+    display: flex;
+    justify-content: center;
+    border-radius:35px;
+    background-color: rgb(15, 150, 204);
+    width: 150px;
+    padding: 10px;
+    color: white;      
+  }
+
+.section--four--right__input--email{
+    display: flex;
+    justify-content: center;
+    border-radius:35px;
+    background-color:rgb(219, 215, 215);
+    width: 150px;
+    padding: 10px;
+    color:black;
+  }
+
+
+.section--four--right--h3{
+    font-family:fantasy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color:#252B42;
+
+  }
+
+
+.section--four--right--h2{
+    font-family:Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color:#252B42;
+
+}
+
  

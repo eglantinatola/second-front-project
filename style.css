@@ -146,7 +146,6 @@ body {
 .features-threeParagraphs {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   column-gap: 50px;
   margin: 30px;
 }
@@ -490,6 +489,283 @@ body {
   line-height: 23px;
   letter-spacing: 0.1px;
   color: #374754;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(3, 45, 83);
+  width: 1200px;
+  height: 900px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.pricing-section__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.pricing-section__description {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin: 30px;
+}
+
+.pricing-tables {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.free-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+  width: 230px;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.standard-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 230px;
+  border: 1 px solid rgb(44, 136, 223);
+  background-color: rgb(44, 136, 223);
+  color: white;
+  border-radius: 5px;
+}
+
+.business-pricing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  height: 550px;
+  width: 230px;
+  border: 1 px solid white;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.pricing-tables a {
+  text-decoration: none;
+  color: black;
+}
+
+.standard-pricing a {
+  color: white;
+}
+
+.free-pricing__button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  background-color: #2c89e0;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.standard-pricing__button {
+  display: flex;
+  justify-content: center;
+  color: skyblue;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.business-pricing__button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  background-color: #2c89e0;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pricing-section__title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.free-pricing__title,
+.business-pricing__title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin: 30px;
+}
+
+.standard-pricing__title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: white;
+  margin: 50px;
+}
+
+.pricing-feature__rows {
+  display: flex;
+  flex-direction: column;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+}
+
+.table-description {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+.table1__monthly-price {
+  display: flex;
+}
+
+.table2__monthly-price {
+  display: flex;
+}
+
+.table3__monthly-price {
+  display: flex;
+}
+
+.table1__monthly-price_type_h1 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+}
+
+.table1__monthly-dollar_type_h3 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.table1__monthly-dollar_type_h5 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+
+.table2__monthly-price_type_h1 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+}
+
+.table2__monthly-dollar_type_h3 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.table2__monthly-dollar_type_h5 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+
+.table3__monthly-price_type_h1 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+}
+
+.table3__monthly-dollar_type_h3 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.table3__monthly-dollar_type_h5 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
 }
 
 html,

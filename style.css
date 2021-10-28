@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   color: white;
+  padding: 10px;
 }
 body {
   font-family: "Sora", sans-serif;
@@ -11,6 +12,20 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  align-items: baseline;
+}
+
+.topNavigation-secondRow {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 74px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin: 50px;
 }
 
 .topNavigation-thirdRow {
@@ -24,6 +39,7 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: white;
+  margin: 10px;
 }
 
 .topNavigation-firstRow__menu {
@@ -57,38 +73,23 @@ body {
   position: relative;
 }
 
-.topNavigation-secondRow {
-  display: flex;
-  justify-content: center;
-  font-family: "Sora", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 74px;
-  line-height: 84px;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: white;
-  margin-top: 60px;
-}
-
 .topNavigation-firstRow__logo {
   display: flex;
   flex: 1;
-  align-self: center;
+  justify-content: center;
 }
 
 .topNavigation-firstRow__socialMedia {
   display: flex;
-  flex: 1;
   justify-content: space-between;
-  align-self: flex-end;
+  flex: 1;
 }
 
 .topNavigation-firstRow__logo {
   flex: 2;
 }
 
-.topNavigation-fourthRow {
+.topNavigation-fourthRow__button {
   display: flex;
   justify-content: center;
   color: white;
@@ -105,31 +106,18 @@ body {
   margin-left: auto;
 }
 
-.section-three__tryButton {
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 150px;
-  opacity: 0.9;
-  padding: 14px 20px;
-  background-color: #2c89e0;
-  border-radius: 40px;
-}
-
 .features-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  padding: 10px;
 }
 
 .features-section-head {
   display: flex;
   flex-direction: column;
+  margin: 30px;
 }
 
 .features-section__head_firstRow {
@@ -152,6 +140,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.2px;
   color: #374754;
+  margin: 20px;
 }
 
 .features-threeParagraphs {
@@ -159,6 +148,40 @@ body {
   flex-direction: row;
   justify-content: center;
   column-gap: 50px;
+  margin: 30px;
+}
+
+.firstParagraph-content {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 20px;
+}
+
+.secondParagraph-content {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 20px;
+}
+
+.thirdParagraph-content {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 20px;
 }
 
 .first-paragraph_title,
@@ -171,6 +194,7 @@ body {
   line-height: 28px;
   letter-spacing: 0.1px;
   color: #252b42;
+  margin: 20px;
 }
 
 .features-section__image {
@@ -184,7 +208,6 @@ body {
   width: 85px;
   background-color: rgb(44, 173, 224);
   border-radius: 50%;
-  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,6 +220,7 @@ body {
   justify-content: center;
   column-gap: 80px;
   margin-top: 50px;
+  padding: 20px;
 }
 
 .section-three_title {
@@ -217,6 +241,23 @@ body {
   line-height: 40px;
   letter-spacing: 0.2px;
   color: #374754;
+  margin: 20px;
+}
+
+.section-three__tryButton {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+  padding: 14px 20px;
+  background-color: #2c89e0;
+  border-radius: 40px;
+  margin: 30px;
 }
 
 .section-four {
@@ -225,6 +266,7 @@ body {
   justify-content: center;
   column-gap: 130px;
   margin-top: 50px;
+  padding: 60px;
 }
 
 .section-four_right {
@@ -237,6 +279,7 @@ body {
   display: flex;
   flex-direction: row;
   align-content: space-around;
+  margin: 20px;
 }
 
 .section-four_right__emailButton {
@@ -277,6 +320,7 @@ body {
   line-height: 28px;
   letter-spacing: 0.1px;
   color: #252b42;
+  margin: 20px;
 }
 
 .section-four_right_type_h2 {
@@ -294,7 +338,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 10px;
   letter-spacing: 0.2px;
   color: #374754;
 }
@@ -303,6 +347,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5px;
 }
 
 .partners-section__firstRow {
@@ -324,6 +369,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.2px;
   color: #374754;
+  margin: 10px;
 }
 
 .partners-section__thirdRow {
@@ -333,10 +379,13 @@ body {
 }
 
 .flex-item {
+  display: flex;
   flex: 0 24%;
-  height: 120px;
-  border: 1px solid rgb(189, 171, 171);
+  flex-wrap: wrap;
   justify-content: center;
+  height: 120px;
+  width: 100px;
+  border: 1px solid rgb(189, 171, 171);
 }
 
 .partners-name {
@@ -347,6 +396,7 @@ body {
   line-height: 23px;
   letter-spacing: 0.1px;
   color: #374754;
+  margin: 10px;
 }
 .partners-section__fourthRow {
   display: flex;
@@ -369,9 +419,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  padding: 10px;
 }
 
-.testimonials-writing {
+.testimonials-text {
   font-family: "Sora", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -379,11 +430,24 @@ body {
   line-height: 40px;
   letter-spacing: 0.2px;
   color: #374754;
+  margin: 20px;
+}
+
+.testimonials-section__ibmImage {
+  display: flex;
+  margin: 20px;
+}
+
+.designer-section {
+  display: flex;
+  column-gap: 15px;
+  margin: 20px;
 }
 
 .designer-data {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  margin: 5px;
 }
 
 .testimonials_title {
@@ -394,6 +458,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.2px;
   color: #374754;
+  margin: 5px;
 }
 
 .testimonials-button {
@@ -415,6 +480,16 @@ body {
 .designer-section a {
   color: black;
   text-decoration: none;
+}
+
+.designer-text__styling {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
 }
 
 html,

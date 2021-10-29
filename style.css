@@ -10,9 +10,9 @@ body {
 
 .topNavigation-firstRow {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   margin-top: 40px;
-  align-items: baseline;
+  
 }
 
 .topNavigation-secondRow {
@@ -213,6 +213,22 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.features-threeParagraphs-firstOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-threeParagraphs-secondOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-threeParagraphs-thirdOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-three {
   display: flex;
   flex-direction: row;
@@ -261,8 +277,8 @@ body {
 
 .section-four {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction:row;
+  justify-content:center;
   column-gap: 130px;
   margin-top: 50px;
   padding: 60px;
@@ -271,7 +287,7 @@ body {
 .section-four_right {
   display: flex;
   flex-direction: column;
-  justify-content: ;
+  justify-content;
 }
 
 .section-four_right__buttons {
@@ -665,6 +681,7 @@ body {
   font-size: 15px;
   line-height: 35px;
   letter-spacing: 0.2px;
+  align-items: center;
 }
 
 .table-description {
@@ -677,14 +694,17 @@ body {
 }
 .table1__monthly-price {
   display: flex;
+  align-items: center;
 }
 
 .table2__monthly-price {
   display: flex;
+  align-items: center;
 }
 
 .table3__monthly-price {
   display: flex;
+  align-items: center;
 }
 
 .table1__monthly-price_type_h1 {
@@ -714,15 +734,6 @@ body {
   letter-spacing: 0.1px;
 }
 
-.table2__monthly-price_type_h1 {
-  font-family: "Sora", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 70px;
-  line-height: 84px;
-  letter-spacing: 0.2px;
-}
-
 .table2__monthly-dollar_type_h3 {
   font-family: "Sora", sans-serif;
   font-style: normal;
@@ -730,6 +741,15 @@ body {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
+}
+
+.table2__monthly-price_type_h1 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
 }
 
 .table2__monthly-dollar_type_h5 {
@@ -766,6 +786,332 @@ body {
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1px;
+}
+
+.contactUs-section {
+  margin-top: 100px;
+}
+
+.contactUs-content {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-top: 50px;
+}
+.contactUs-section__title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.contactUs-section__text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+
+.contact-section__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUs-content_left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 300px;
+  border: 1px solid rgb(226, 211, 211);
+  padding: 20px;
+  border-radius: 10px;
+}
+.content_left-title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin: 20px;
+  color: #252b42;
+}
+
+.contactUs-content_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-content__text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color:#18171D;
+}
+
+.phone-content__text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #18171D;
+}
+
+.email-content__text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #100f14;
+}
+
+.map-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.social-links__section {
+  display: flex;
+  column-gap: 20px;
+}
+
+.contact-features {
+  display: flex;
+  flex: 1;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.name-input__section {
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  opacity: 0.9;
+  padding: 14px 20px;
+  background-color: rgb(236, 228, 228);
+  border-radius: 40px;
+}
+.email-input__section {
+  display: flex;
+  justify-content: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  opacity: 0.9;
+  padding: 14px 20px;
+  color: black;
+  background-color: rgb(236, 228, 228);
+  border-radius: 40px;
+}
+
+.message-input__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: black;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  height: 120px;
+  opacity: 0.9;
+  padding: 14px 20px;
+  background-color: rgb(236, 228, 228);
+}
+.contactUs__button {
+  display: flex;
+  justify-content:center;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  opacity: 0.9;
+  padding: 14px 20px;
+  background-color: #2c89e0;
+  border-radius: 40px;
+}
+
+.end-section {
+  display: flex;
+  background-color: rgb(3, 45, 83);
+  width: 1200px;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  column-gap: 50px;
+}
+.end-section__partOne {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.end-section__partTwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.end-section__partThree {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.end-section__partFour {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.end-section__partOne_content a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 20px;
+}
+.end-section__partTwo_content a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 20px;
+}
+.end-section__partThree_content a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 20px;
+}
+
+.end-section__partOne_title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: white;
+}
+
+.location-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end-section__partTwo_title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: white;
+}
+
+.end-section__partThree_title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: white;
+}
+
+.end-section__partFour_location {
+  display: flex;
+  column-gap: 10px;
+}
+
+.end-section__partFour_phone {
+  display: flex;
+  margin-top: 30px;
+  column-gap: 10px;
+}
+
+.end-section__partFour_socialMedia {
+  display: flex;
+  margin-top: 30px;
+  column-gap:20px;
+}
+
+.end-section__partFour_location__text a {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: white;
+  text-decoration: none;
+}
+
+.end-section__partFour_phone__text a {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: white;
+  text-decoration: none;
 }
 
 html,
